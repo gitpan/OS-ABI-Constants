@@ -1,0 +1,30 @@
+---
+abstract: 'A libray of system-specific ABI constants'
+author:
+  - 'ribasushi: Peter Rabbitson <ribasushi@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  IO::Compress::Bzip2: 0
+  MIME::Base64: 0
+  Storable: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: OS::ABI::Constants
+name: OS-ABI-Constants
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Sys::Info: 0.78
+  perl: 5.6.2
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/ribasushi/OS-ABI-Constants
+version: 0.00_01
