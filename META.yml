@@ -27,4 +27,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/ribasushi/OS-ABI-Constants
-version: 0.00_02
+version: 0.00_03
